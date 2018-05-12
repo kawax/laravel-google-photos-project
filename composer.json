@@ -11,7 +11,7 @@
         "laravel/framework": "5.6.*",
         "laravel/socialite": "^3.0",
         "laravel/tinker": "^1.0",
-        "revolution/laravel-google-photos": "dev-master"
+        "revolution/laravel-google-photos": "^1.0"
     },
     "require-dev": {
         "filp/whoops": "^2.0",

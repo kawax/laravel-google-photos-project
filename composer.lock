@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fb5ee23d8357428a1834f56a1de388ef",
+    "content-hash": "330b704019851669e3d3ce0cc2f93733",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2010,16 +2010,16 @@
         },
         {
             "name": "revolution/laravel-google-photos",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-google-photos.git",
-                "reference": "bcf88a0135424a7998222190b8fe0881db81df96"
+                "reference": "0ed28d1a9bde19bcd8d64ab51a0cfcc0f28d4385"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-google-photos/zipball/bcf88a0135424a7998222190b8fe0881db81df96",
-                "reference": "bcf88a0135424a7998222190b8fe0881db81df96",
+                "url": "https://api.github.com/repos/kawax/laravel-google-photos/zipball/0ed28d1a9bde19bcd8d64ab51a0cfcc0f28d4385",
+                "reference": "0ed28d1a9bde19bcd8d64ab51a0cfcc0f28d4385",
                 "shasum": ""
             },
             "require": {
@@ -2065,7 +2065,7 @@
                 "laravel",
                 "photos"
             ],
-            "time": "2018-05-12T14:57:18+00:00"
+            "time": "2018-05-12T15:20:15+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4887,8 +4887,7 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "google/apiclient-services": 20,
-        "revolution/laravel-google-photos": 20
+        "google/apiclient-services": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

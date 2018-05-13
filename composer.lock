@@ -2014,12 +2014,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-google-photos.git",
-                "reference": "fb274fc1f3d08500a6e00448113be1729823d714"
+                "reference": "7d158fd187a65f98d99458d9f4b2979fbe23cb0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-google-photos/zipball/fb274fc1f3d08500a6e00448113be1729823d714",
-                "reference": "fb274fc1f3d08500a6e00448113be1729823d714",
+                "url": "https://api.github.com/repos/kawax/laravel-google-photos/zipball/7d158fd187a65f98d99458d9f4b2979fbe23cb0c",
+                "reference": "7d158fd187a65f98d99458d9f4b2979fbe23cb0c",
                 "shasum": ""
             },
             "require": {
@@ -2065,7 +2065,7 @@
                 "laravel",
                 "photos"
             ],
-            "time": "2018-05-13T02:00:08+00:00"
+            "time": "2018-05-13T06:33:32+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

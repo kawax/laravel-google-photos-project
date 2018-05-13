@@ -23,6 +23,8 @@ class UploadController extends Controller
 
         $result = $photos->batchCreate([$uploadToken]);
 
+        //        dd($result);
+
         return redirect('home')->with('status', 'Upload success');
     }
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "330b704019851669e3d3ce0cc2f93733",
+    "content-hash": "fb5ee23d8357428a1834f56a1de388ef",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2010,7 +2010,7 @@
         },
         {
             "name": "revolution/laravel-google-photos",
-            "version": "1.0.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-google-photos.git",
@@ -4887,7 +4887,8 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "google/apiclient-services": 20
+        "google/apiclient-services": 20,
+        "revolution/laravel-google-photos": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

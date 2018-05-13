@@ -24,7 +24,7 @@ class AlbumController extends Controller
         //        $albums_object = $photos->albums->listAlbums($optParams)->toSimpleObject();
 
         // Facade
-        //        $albums_object = Photos::setService($photos)->albums($optParams);
+        //        $albums_object = Photos::setService($photos)->listAlbums($optParams);
 
         // PhotosLibrary Trait
         $albums_object = $request->user()->photos()->listAlbums($optParams);

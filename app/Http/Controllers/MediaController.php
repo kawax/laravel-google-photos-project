@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use PulkitJalan\Google\Facades\Google;
 use Revolution\Google\Photos\Facades\Photos;
 
 class MediaController extends Controller
@@ -33,15 +32,7 @@ class MediaController extends Controller
             'created'       => $user->updated_at->getTimestamp(),
         ];
 
-        Google::setAccessToken($token);
-
-        if (isset($token['refresh_token']) and Google::isAccessTokenExpired()) {
-            Google::fetchAccessTokenWithRefreshToken();
-        }
-
-        $photos = Google::make('PhotosLibrary');
-
-        $media_object = Photos::setService($photos)->search($optParams);
+        $media_object = Photos::setAccessToken($token)->search($optParams);
 
 
         // Trait

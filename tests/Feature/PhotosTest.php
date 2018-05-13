@@ -10,23 +10,13 @@ use Mockery as m;
 
 use App\User;
 
-use PulkitJalan\Google\Facades\Google;
-use Revolution\Google\Photos\Photos;
-use Revolution\Google\Photos\PhotosInterface;
+use Revolution\Google\Photos\Facades\Photos;
 
 class PhotosTest extends TestCase
 {
-    /**
-     * @var Photos
-     */
-    protected $photos;
-
     public function setUp()
     {
         parent::setUp();
-
-        $this->photos = m::mock(Photos::class);
-        app()->instance(PhotosInterface::class, $this->photos);
     }
 
     public function tearDown()
@@ -36,11 +26,8 @@ class PhotosTest extends TestCase
 
     public function testAlbums()
     {
-        Google::shouldReceive('setAccessToken')->once();
-        Google::shouldReceive('isAccessTokenExpired')->once()->andReturn(false);
-        Google::shouldReceive('make')->once();
-        $this->photos->shouldReceive('setService')->once()->andReturn($this->photos);
-        $this->photos->shouldReceive('listAlbums')->once()->andReturn((object)['albums' => []]);
+        Photos::shouldReceive('setAccessToken')->once()->andReturn(m::self());
+        Photos::shouldReceive('listAlbums')->once()->andReturn((object)['albums' => []]);
 
         $user = factory(User::class)->make();
 
@@ -53,11 +40,8 @@ class PhotosTest extends TestCase
 
     public function testMediaItems()
     {
-        Google::shouldReceive('setAccessToken')->once();
-        Google::shouldReceive('isAccessTokenExpired')->once()->andReturn(false);
-        Google::shouldReceive('make')->once();
-        $this->photos->shouldReceive('setService')->once()->andReturn($this->photos);
-        $this->photos->shouldReceive('search')->once()->andReturn((object)['mediaItems' => []]);
+        Photos::shouldReceive('setAccessToken')->once()->andReturn(m::self());
+        Photos::shouldReceive('search')->once()->andReturn((object)['mediaItems' => []]);
 
         $user = factory(User::class)->make();
 

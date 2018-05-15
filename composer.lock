@@ -2010,16 +2010,16 @@
         },
         {
             "name": "revolution/laravel-google-photos",
-            "version": "1.0.4",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-google-photos.git",
-                "reference": "222e0acd586458f29a5099d94e2e89d41f40ccbd"
+                "reference": "9ac4f8ab9d9dbf2bf9965795ad493e002785669f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-google-photos/zipball/222e0acd586458f29a5099d94e2e89d41f40ccbd",
-                "reference": "222e0acd586458f29a5099d94e2e89d41f40ccbd",
+                "url": "https://api.github.com/repos/kawax/laravel-google-photos/zipball/9ac4f8ab9d9dbf2bf9965795ad493e002785669f",
+                "reference": "9ac4f8ab9d9dbf2bf9965795ad493e002785669f",
                 "shasum": ""
             },
             "require": {
@@ -2065,7 +2065,7 @@
                 "laravel",
                 "photos"
             ],
-            "time": "2018-05-15T01:00:33+00:00"
+            "time": "2018-05-15T01:39:01+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

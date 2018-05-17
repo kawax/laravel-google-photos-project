@@ -16,7 +16,7 @@
                                 <li>title :
                                     <a href="{{ route('mediaitems.album', $album->id) }}">{{ str_limit($album->title, 10) }}</a>
                                 </li>
-                                <li>totalMediaItems : {{ $album->totalMediaItems }}</li>
+                                <li>totalMediaItems : {{ $album->totalMediaItems ?? '0' }}</li>
                                 <li>coverPhotoBaseUrl : {{ str_limit($album->coverPhotoBaseUrl, 30) }}</li>
                             </ul>
                         @endforeach

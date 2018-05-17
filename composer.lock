@@ -825,16 +825,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.6.21",
+            "version": "v5.6.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "458a89b1c5ff73072c27308566f444c790f76f28"
+                "reference": "637fd797a6dde8d24a9f07da77e375ec251c5d24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/458a89b1c5ff73072c27308566f444c790f76f28",
-                "reference": "458a89b1c5ff73072c27308566f444c790f76f28",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/637fd797a6dde8d24a9f07da77e375ec251c5d24",
+                "reference": "637fd797a6dde8d24a9f07da77e375ec251c5d24",
                 "shasum": ""
             },
             "require": {
@@ -960,7 +960,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-05-08T13:30:15+00:00"
+            "time": "2018-05-15T13:34:20+00:00"
         },
         {
             "name": "laravel/socialite",
@@ -2010,16 +2010,16 @@
         },
         {
             "name": "revolution/laravel-google-photos",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-google-photos.git",
-                "reference": "9ac4f8ab9d9dbf2bf9965795ad493e002785669f"
+                "reference": "ac0623dc64a89b702871104ed9b8c32275df5099"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-google-photos/zipball/9ac4f8ab9d9dbf2bf9965795ad493e002785669f",
-                "reference": "9ac4f8ab9d9dbf2bf9965795ad493e002785669f",
+                "url": "https://api.github.com/repos/kawax/laravel-google-photos/zipball/ac0623dc64a89b702871104ed9b8c32275df5099",
+                "reference": "ac0623dc64a89b702871104ed9b8c32275df5099",
                 "shasum": ""
             },
             "require": {
@@ -2065,7 +2065,7 @@
                 "laravel",
                 "photos"
             ],
-            "time": "2018-05-15T01:39:01+00:00"
+            "time": "2018-05-17T11:35:28+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3242,16 +3242,16 @@
         },
         {
             "name": "laravel/homestead",
-            "version": "v7.4.2",
+            "version": "v7.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/homestead.git",
-                "reference": "3c73add39c20e027e18e3a1269a99a48850c066e"
+                "reference": "860e3cde271e5af46f82c3308f018b1f258dd014"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/3c73add39c20e027e18e3a1269a99a48850c066e",
-                "reference": "3c73add39c20e027e18e3a1269a99a48850c066e",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/860e3cde271e5af46f82c3308f018b1f258dd014",
+                "reference": "860e3cde271e5af46f82c3308f018b1f258dd014",
                 "shasum": ""
             },
             "require": {
@@ -3288,7 +3288,7 @@
                 }
             ],
             "description": "A virtual machine for web artisans.",
-            "time": "2018-05-09T13:01:46+00:00"
+            "time": "2018-05-16T14:35:23+00:00"
         },
         {
             "name": "mockery/mockery",

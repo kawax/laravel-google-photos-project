@@ -48,4 +48,21 @@ class AlbumController extends Controller
         $album = $request->user()->photos()->album($id);
         dd($album);
     }
+
+    /**
+     * @param Request $request
+     */
+    public function create(Request $request)
+    {
+        $title = $request->input('title');
+
+        $params = [
+            'title'       => $title,
+            'isWriteable' => true,
+        ];
+
+        $album = $request->user()->photos()->createAlbum($params);
+
+        dd($album);
+    }
 }

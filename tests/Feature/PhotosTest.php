@@ -14,12 +14,12 @@ use Revolution\Google\Photos\Facades\Photos;
 
 class PhotosTest extends TestCase
 {
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
     }
 
-    public function tearDown()
+    public function tearDown(): void
     {
         m::close();
     }
